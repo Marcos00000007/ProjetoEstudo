@@ -1,1 +1,35 @@
-ECHO est  ativado.
+# Compiled source
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+
+# VS / VSCode
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+/publish/
+/TestResults/
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# Environment files
+.env
+appsettings.Development.json
+
+# Node (caso use React futuramente)
+node_modules/
+dist/
+
